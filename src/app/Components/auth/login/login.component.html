@@ -1,0 +1,14 @@
+You Are Now In Login Page
+<hr>
+<h1>LOGIN Page</h1>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div>
+    <input type="text" placeholder="EMAIL" formControlName="email">
+  </div>
+  <div>
+    <input type="password" placeholder="PASSWORD" formControlName="password">
+  </div>
+  <div>
+    <button type="submit">Sign In</button>
+  </div>
+</form>
